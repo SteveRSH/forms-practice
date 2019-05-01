@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    </head>
+    
+    <body>
+        <div id="three-column-form">
+            <div id="left-side">
+                <h1>1.</h1>
+                <p class="first-paragraph first-para">Pick a login name</p>
+                <p class="second-paragraph">Your login will be part of your <br>website URL.</p>
+                <form>
+                    Login/Sitename:<br>
+                    <input type="text" placeholder="Name" id="name" required><br>
+                    <button type="submit" id="button" class="pure-button pure-button-primary">Confirm</button>     
+                </form>
+            </div>
+
+            <div id="center">
+                <h1>2.</h1>
+                <p class="first-paragraph">Choose a password <br> for your account</p>
+                <p class="second-paragraph">Your password must be 6-13 <br> characters in length.</p>
+                <form>
+                    Password:<br>
+                    <input type="password" placeholder="Password" id="password" required><br>
+                    Repeat Password:<br>
+                    <input type="password" placeholder="Confirm Password" id="confirm_password" required><br>
+                    
+                     <button type="submit" id="button" class="pure-button pure-button-primary">Confirm</button>
+   
+                </form>
+            </div>
+
+            <div id="right-side">
+                <h1>3.</h1>
+                <p class="first-paragraph">Enter your email <br> address</p>
+                <p class="second-paragraph">You must enter a valid email address <br> to enter your account.</p>
+                <form>
+                    Email:<br>
+                    <input type="email" placeholder="Email" id="email" required><br>
+                    Repeat Email:<br>
+                    <input type="email" placeholder="Confirm Email" id="confirm_email" required><br>
+                    
+                    <button type="submit" id="button" class="pure-button pure-button-primary">Confirm</button>   
+                </form>
+            </div>  
+        </div>
+        
+          
+    </body>
+    
+    <script src="form.js"></script>
+</html>

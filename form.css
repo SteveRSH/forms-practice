@@ -1,0 +1,75 @@
+body{
+    background-color: #b5b3b0;
+    background-image: url();
+    background-repeat: no-repeat;
+}
+
+#three-column-form{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.first-paragraph{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.first-para{
+   margin-bottom: 95px; 
+}
+
+.second-paragraph{
+    margin-bottom: 90px;
+}
+
+#left-side{
+    float: left;
+    width: 460px;
+}
+
+#left-side:hover{
+    background-color: #a5aaaa;
+    background-image: url(https://i.postimg.cc/0NJ6YDHh/facial-960-640.jpg);
+    color: #0d78ba;
+    height: 445px;
+}
+
+#center:hover{
+    background-color: #a5aaaa;
+    color: white;
+    background-image: url(https://i.postimg.cc/KjmRhVvy/masked.jpg);
+    height: 445px;
+}
+
+#right-side:hover{
+    background-color: #a5aaaa;
+    color: #0d78ba;
+    background-image: url(https://i.postimg.cc/K8Cj84vf/masked-Woman.jpg);
+    height: 445px;
+}
+
+#center{
+    float: left;
+    width: 460px;
+}
+
+#right-side{
+    float: left;
+    width: 460px;
+}
+
+#button{
+     margin: 10px;
+    float: left;
+    background-color: #1274f7;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+#button:hover {
+  background-color: RoyalBlue;
+}
